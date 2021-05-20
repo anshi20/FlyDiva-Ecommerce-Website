@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  padding: 40px;
+  text-align: center;
+  background: purple;
+}
+body {
+  padding: 10px;
+  background: #FBCFE8;
+}
+ul {
+    position:absolute;
+    top:10px;
+    width: 100%;
+    font-family: Arial;
+  }                        
+  
+li {
+    text-align: right;
+    display: inline;
+    float: left;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color:white;
+    border: 2px solid purple;
+    border-radius: 10px;
+  }
+li a {
+    display:block;
+    color: purple;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size:20px;
+  }
+li a:hover {
+    background-color: purple;
+    color: white; 
+  }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+.image {
+    flex-basis: 50%;
+    padding:30px;
+    margin:10px 30px;
+  }
+
+.first-heading{
+    padding-left: 20px;
+    color: #8d0fa7;
+  }
+
+
+  .gallery {
+    border: 1px solid #ccc;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+
+  }
+  
+  .gallery img {
+    width: 90%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+    font-size:20px;
+    font-weight:bold;
+    color:rgb(59, 4, 59);
+  }
+  
+  .responsive {
+    padding: 0px 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .second-heading{
+    text-align: center;
+    color: #800d97;
+  }
+
+/*
+Beginning SheTalk     
+*/
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-family:'Times New Roman', Times, serif;
+  color:#660779;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  padding: 10px 32px;
+  display: inline-block;
+  background-color:rgb(128, 11, 182) ;
+  color: white;
+  border: 2px solid #33042b;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+p{
+  font-size: 30px;
+}
+
+button:hover{
+  background-color: rgb(206, 35, 163);
+}
+
+/* My Footer */
+
+.contact{
+  font-size: 60px;
+  font-family:'Times New Roman', Times, serif;
+  color:#660779;
+}
+h2{
+  font-size:25px;
+}
+
+.column-1{
+  background-color: #FBCFE8;
+  font-family:'Times New Roman', Times, serif;
+  color:#660779;
+  width: 33.33%;
+  //padding: 10px;
+  height: 300px; 
+  float:left;
+}
+.column-2{
+  background-color: rgb(216, 62, 165);
+  color:#fff;
+  width: 33.33%;
+  //padding: 10px;
+  height: 300px; 
+  float:left;
+}
+.column-3{
+  background-color: #FBCFE8;
+  font-family:'Times New Roman', Times, serif;
+  color:#660779;
+  width: 33.33%;
+  //padding: 10px;
+  height: 300px; 
+  float:left;
+}
+
+
+
+.button{
+  
+  //width:40px;
+  padding: 10px;
+  height: 90px;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+  color:#660779;
+}
+
+
+.icon:hover{
+  border: 1px solid #777;
+}
